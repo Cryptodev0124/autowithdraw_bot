@@ -57,7 +57,7 @@ export const getEndTime = (): number => {
   // }
 
   return moment()
-  .add(6, "hours")
+  .add(8, "hours")
   .startOf("hour")
   .utc()
   .unix();
